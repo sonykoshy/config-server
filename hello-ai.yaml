@@ -2,3 +2,15 @@ eureka.client.register-with-eureka=true
 eureka.client.fetch-registry=true
 serviceUrl.defaultZone=http://localhost:8761/eureka
 instance.hostname=localhost
+
+deepgram:
+  api:
+    url: https://api.deepgram.com/v1/listen?punctuate=true&language=en
+
+elevenlabs:
+  api:
+    url: https://api.elevenlabs.io/v1/text-to-speech/
+
+open:
+  api:
+    url: https://api.openai.com/v1/chat/completions
